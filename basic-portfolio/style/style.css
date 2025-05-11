@@ -1,0 +1,24 @@
+:root {
+  --background-color: rgba(1, 29, 51, 0.5);
+  --dark-background-color: #000C1C;
+}
+
+.home, .projcets {
+  background-image: url('../imgs/background.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about, .contact {
+  background-color: var(--dark-background-color);
+}
+
+.card, .about-container, .container-contact {
+  background-color: var(--background-color);
+}
+
+
+
+
+
